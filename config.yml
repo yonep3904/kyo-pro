@@ -1,0 +1,6 @@
+atcoder:
+  save_dir: "./problems"
+  problem_level: "E"
+  templates:
+    - ".cpp"
+    - ".py"
