@@ -172,8 +172,9 @@ class Contest:
         if self.category == 'other':
             return self.name
         else:
+            return f'{datetime.now().strftime("%y%m%d")}_{self.category.lower()}{self.number:03}'
             # return f'{self.start.strftime("%y%m%d")}_{self.category.lower()}{self.number:03}'
-            return f'{self.category.lower()}{self.number:03}'
+            # return f'{self.category.lower()}{self.number:03}'
 
     def display(self) -> str:
         status_dict = {
